@@ -1,0 +1,20 @@
+.btn-circle.btn-xl {
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  margin: 5px;
+  width: 85px;
+  height: 85px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  padding: 2px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+}

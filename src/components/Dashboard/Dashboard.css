@@ -1,0 +1,17 @@
+
+
+@media (min-width: 1200px){
+    .dashboard{
+        max-width: 1140px;
+        align-items: flex-end;
+        margin-left: 147px;
+    }
+}
+@media (min-width: 1024){
+    .dashboard{
+        max-width: 1140px;
+        align-items: flex-end;
+        margin-left: 147px;
+    }
+    
+}

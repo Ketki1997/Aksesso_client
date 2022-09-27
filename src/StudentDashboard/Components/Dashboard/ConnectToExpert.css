@@ -1,0 +1,78 @@
+.mydivouter {
+  background-image: url("../../assets/images.jpg");
+  border-radius: 50%;
+  position: relative;
+  width: 200px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  margin: 0 auto;
+}
+.mydivoverlap {
+  position: relative;
+  z-index: 1;
+}
+.mybuttonoverlap {
+  position: absolute;
+  z-index: 2;
+  top: 44px;
+  display: none;
+  left: 59px;
+}
+.mydivouter:hover .mybuttonoverlap {
+  display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.avatar {
+  font-family: "Lato", sans-serif;
+  width: 198px;
+  height: 173px;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: border 0.15s ease-in;
+  /* border: 2px solid #4481E8; */
+  background-color: #d5ddeb;
+}
+
+avatar:hover {
+  border: 2px solid #0aaff1;
+  cursor: pointer;
+}
+.avatar:hover .edit {
+  padding-top: 10px;
+  height: 30%;
+}
+
+.avatar-img,
+.edit {
+  position: absolute;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.edit {
+  width: 100%;
+  height: 0px;
+  border-radius: 50%;
+  z-index: 1;
+  bottom: 0;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(10, 175, 241, 0.781);
+  transition: all 1s;
+  padding-top: 0px;
+  text-align: center;
+}
